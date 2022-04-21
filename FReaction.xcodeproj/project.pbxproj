@@ -11,6 +11,8 @@
 		404861622811A227002B058E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404861612811A227002B058E /* ContentView.swift */; };
 		404861642811A229002B058E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 404861632811A229002B058E /* Assets.xcassets */; };
 		404861672811A229002B058E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 404861662811A229002B058E /* Preview Assets.xcassets */; };
+		404861752811AFD9002B058E /* imagePickere.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404861742811AFD9002B058E /* imagePickere.swift */; };
+		404861792811B250002B058E /* FaceReaction.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 404861782811B250002B058E /* FaceReaction.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,9 @@
 		404861612811A227002B058E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		404861632811A229002B058E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		404861662811A229002B058E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4048616F2811A3CC002B058E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		404861742811AFD9002B058E /* imagePickere.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imagePickere.swift; sourceTree = "<group>"; };
+		404861782811B250002B058E /* FaceReaction.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = FaceReaction.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +56,11 @@
 		4048615E2811A227002B058E /* FReaction */ = {
 			isa = PBXGroup;
 			children = (
+				4048616F2811A3CC002B058E /* Info.plist */,
 				4048615F2811A227002B058E /* FReactionApp.swift */,
 				404861612811A227002B058E /* ContentView.swift */,
+				404861742811AFD9002B058E /* imagePickere.swift */,
+				404861782811B250002B058E /* FaceReaction.mlmodel */,
 				404861632811A229002B058E /* Assets.xcassets */,
 				404861652811A229002B058E /* Preview Content */,
 			);
@@ -137,8 +145,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				404861792811B250002B058E /* FaceReaction.mlmodel in Sources */,
 				404861622811A227002B058E /* ContentView.swift in Sources */,
 				404861602811A227002B058E /* FReactionApp.swift in Sources */,
+				404861752811AFD9002B058E /* imagePickere.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +282,7 @@
 				DEVELOPMENT_TEAM = 2BF2GNXT6R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FReaction/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -301,6 +312,7 @@
 				DEVELOPMENT_TEAM = 2BF2GNXT6R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FReaction/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
